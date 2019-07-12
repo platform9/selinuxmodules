@@ -1,9 +1,11 @@
 # SETENFORCE 1 !
 
 Platform9 products and services can run in secure environments, as long as security
-portals are opened up for certain core functionality.  This repository is a utility
-for bootstrapping and documenting any SELinux related portals.  You can apply one,
-or many of these at any time before your platform9 installation.
+portals are opened up for certain core functionality.  
+
+This repository is a utility for bootstrapping and documenting any SELinux related portals.  
+
+You can apply one, or many of these at any time before your platform9 installation.
 
 In addition to containing the actual SELinux policy files for specific features which
 need to be enabled, this repostiroy also has an AVCs file, where we maintain example
