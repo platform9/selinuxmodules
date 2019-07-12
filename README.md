@@ -9,6 +9,14 @@ In addition to containing the actual SELinux policy files for specific features 
 need to be enabled, this repostiroy also has an AVCs file, where we maintain example
 AVCs that might occur while you install CSI, CNI, or other security sensitive services.
 
+# Using this repo
+
+- `git clone https://github.com/platform9/selinuxmodules`
+- (optional) Edit or remove any policies in these  shell scripts.  
+- `./apply.sh`
+
+# Developing and adding to this repo
+
 To monitor these AVCs to build new policy's, just run:
 
 - `tail -f /var/log/audit.log` and look for avc denials or failures.
