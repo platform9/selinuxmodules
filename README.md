@@ -1,3 +1,6 @@
+Note: This repository is currently in alpha status, and being tested for viability with different products on different SELinux platforms.  In any case, it should be a good resource for anyone that wants to create fine grained selinux policies for running
+pf9 software on.
+
 # SETENFORCE 1 !
 
 Platform9 products and services can run in secure environments, as long as security
