@@ -14,6 +14,13 @@ In addition to containing the actual SELinux policy files for specific features 
 need to be enabled, this repostiroy also has an AVCs file, where we maintain example
 AVCs that might occur while you install CSI, CNI, or other security sensitive services.
 
+# Whats in here? 
+
+- AVCS : A file where we log notable AVCs used to generate selinux policies.
+- Policy files: A set of policies which, if enabled, will allow platform9 components to run with SELinux enabled.
+- apply.sh : A script which applies the policies in this repo
+- Vagrantfile : A VM recipe that spins up a local virtualbox instance that can be used to test these recipes.
+
 # Using this repo
 
 - `git clone https://github.com/platform9/selinuxmodules`
