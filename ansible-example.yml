@@ -1,6 +1,6 @@
 # This is an example of how to make an ansible role that initiates an SEllinux policy.
 - copy:
-    src: "{{ role_path }}/files/tefile.te"
+    src: "{{ role_path }}/files/pf9.te"
     dest: /tmp/pf9.te
 - name: pmk-selinux
   shell: |
